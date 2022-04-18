@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+nav{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+.fa{
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+}
+.bd{
+    background-color: red;
+    width: 150px;
+    height: 100vh;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    /* display: none; */
+}
+.bd ul{
+    padding-top: 40px;
+}
+.bd ul li{
+    color: white;
+    list-style-type: none;
+    padding-top: 20px;
+
+}
+/* -------- add class for nav ------- */
+.fa-close{
+    transform: rotate(-180deg);
+    transition: .1s;
+}
+.bd-nav{
+    left: 0;
+    transition: .3s;
+}
